@@ -1,0 +1,13 @@
+/* Sidebar styles */
+.sidebar {
+    background-color: #f8f9fa; 
+  }
+  
+  .list-group-item {
+    font-size: 18px; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  

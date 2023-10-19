@@ -1,0 +1,175 @@
+/* Header styles */
+.mainContainer {
+  background-color: #040455;
+  width: 1440px;
+  margin: auto;
+  
+
+}
+  .navbarEntry {
+    font-size: 45px; 
+    color: #fff; 
+  }
+  .btnsignup{
+    border-radius: 90px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+  
+  }
+  .search{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+
+  }
+  .searchinput{
+    border-radius: 90px;
+    color: white;
+    width: 400px;
+    height: 60px;
+    /* background-color: black; */
+  }
+  .btnsearch{
+    margin-right: 400px;
+    margin-left: -160px; /* TAKES THE SIGNUP BTN WITH IN THE INPUT AREA*/
+    /* position: absolute; */
+    /* left: 240px; */
+    /* top: 80; */
+    width: 150px;
+    margin-top: 08px;
+    border-radius: 50px;
+    height: 45px;
+    background-color: green;
+    
+  }
+
+  .header {
+    /* text-orientation: sideways-right; */
+    display: flex;
+    justify-content: space-between; /*ALIGNS ITEMS IN ROW WITH SPACE BETWEEN THEM*/
+    align-items: right ; /*ALIGN ITEMS VERTICALLY IN THE CENTER */
+    padding: 20px 20px; /*ADD PADDING FOR BETTER SPACING */
+    background-color: #040455; /* SET BACKGROUND COLOR*/
+    
+  }
+  .header td h3{
+    color:white;
+  }
+
+  .header td{
+    padding: 15px;
+    width: 30;
+    justify-content: space-between;
+    border-spacing: 10px;
+  }
+ 
+  #column{
+  flex: 1; /* Distribute available space equally among columns */
+  width: 50%; /* Set the width of each column to 50% */
+  padding: 10px;
+  box-sizing: border-box;
+    
+  }
+  .sign{
+    flex-direction: row;
+    justify-content: end;
+    align-content: flex-end;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none; /*REMOVES DEFAULT LIST STYLES*/
+    padding: 0; /*REMOVES DEFAULT PADDING */
+  }
+
+  .nav-item{ 
+    margin: 0 10px; /* ADD MARGIN BETWEEN NAVBAR ITEMS*/
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .headercolumn{
+    display: flex;
+   }
+
+  .headertext{
+    color: #fff;
+    margin-left: 20px;
+    flex: 1; /* TKE UP TO 50% OF THE CONTAINER*/
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 20px;
+  }
+  .heardergirls{
+    flex: 1; /* TKE UP TO 50% OF THE CONTAINER*/
+    direction: rtl;
+    position: relative;
+   
+  }
+  .image1 {
+    /* position: absolute; SET THE FIRST IMAGE TO ABSOLUTE POSITION */
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50px;
+    /* z-index: 1; Set the stacking order */
+  }
+  .image2 {
+    position: absolute; /*SET THE FIRST IMAGE TO ABSOLUTE POSITION*/
+    top: 250px;
+    right: 350px;
+    /* bottom: 50px; */
+    z-index: 10; /*Set the stacking order */
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+  
+  .creative{
+    flex: 1;
+    color: white;
+
+  }
+  .creative img{
+    height: 30px;
+    width: 30px;
+  }
+  .rounded {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #circle{
+    margin-right: 20px;
+
+  }
+
+  .added > div {
+    display: flex; /* Use flexbox layout for the immediate children of the 'added' class */
+  }
+  
+  .added ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox layout for the ul elements */
+    margin-right: 20px; /* Add margin between ul elements */
+  }
+  
+  .added ul li {
+    margin-right: 10px; /* Add margin between list items within ul elements */
+    color: #fff;
+  }
+  .views{
+text-decoration: underline;
+  }
+ 
+
