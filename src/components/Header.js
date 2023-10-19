@@ -32,7 +32,6 @@ function Header() {
           </tb>
         </table>
         <div className="sign">
-          {/* <img src={signUp} alt="signupImg" /> */}
           <button className="btnsignup">Sign Up </button>
         </div>
       </div>

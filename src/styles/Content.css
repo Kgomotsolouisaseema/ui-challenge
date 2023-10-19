@@ -8,3 +8,144 @@
 .companynames img {
   width: 100%;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+
+.column{
+  text-align: center;
+  margin: 0 10px;
+  /* float: left; */
+  display: block;
+  /* justify-content: center; */
+  margin-bottom: 20px;
+  
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.column2{
+  text-align: center;
+  margin: 0 10px;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.contentwords{
+  color: white;
+}
+
+
+/* 3 BOXES TEST */
+.threeboxes{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  width: 100%;
+}
+
+.testbox{
+  background-color: aqua;
+  width: 300px;
+  border: 15px skyblue;
+  padding: 25px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  /* float: left;  PLACES ALLL THE BOXES IN THE SAME ROW */
+}
+
+#icons{
+  width: 80px;
+  height: 90px;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  margin: 0px 15px;
+}
+.trend{
+  color: white;
+}
+#imagesmall{
+  width: 20px;
+}
+.column h2 {
+  color: white;
+}
+.column p {
+  color: white;
+}
+.column span {
+  color: white;
+  align-items: left ;
+}
+
+.column2 h2 {
+  color: white;
+}
+.column2 p {
+  color: white;
+}
+.column2 span {
+  color: white;
+  align-items: left ;
+
+}
+.btnsignup{
+  color: black;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+}
+
+.threeboxes2{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  width: 100%;
+}
+.testbox2{
+  background-color: rgb(58, 11, 129);
+  width: 300px;
+  border: 15px white;
+  padding: 25px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  /* float: left;  PLACES ALLL THE BOXES IN THE SAME ROW */
+}
+.testbox2 h4{
+  color: white;
+}
+.testbox2 p{
+  color: white;
+}
+#icons2{
+  width: 80px;
+  height: 90px;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  margin: 0px 15px;
+  border-radius: 50px;
+}
+
+
+

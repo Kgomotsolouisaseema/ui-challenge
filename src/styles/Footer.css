@@ -1,8 +1,86 @@
 /* Footer styles */
-.footer {
-    background-color: #f8f9fa; 
+
+.mainContainer{
+ 
+    background-color: #040455;
+    width: 1440px;
+    margin: auto;
+}
+/* .footer {
+    background-color: #042f5a; 
     font-size: 16px; 
-    color: #333; 
+    /* color: #333;  */
+  /* }  */
+  
+  .headercolumn{
+    display: flex;
+   }
+
+  .headertext{
+    color: #fff;
+    margin-left: 20px;
+    flex: 1; /* TKE UP TO 50% OF THE CONTAINER*/
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 20px;
+  }
+  .heardergirls{
+    flex: 1; /* TKE UP TO 50% OF THE CONTAINER*/
+    direction: rtl;
+    position: relative;
+   
+  }
+  .image1 {
+    /* position: absolute; SET THE FIRST IMAGE TO ABSOLUTE POSITION */
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50px;
+    /* z-index: 1; Set the stacking order */
+  }
+  .image2 {
+    position: absolute; /*SET THE FIRST IMAGE TO ABSOLUTE POSITION*/
+    top: 250px;
+    right: 350px;
+    /* bottom: 50px; */
+    z-index: 10; /*Set the stacking order */
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+  .search{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+
+  }
+  .searchinput{
+    border-radius: 90px;
+    color: white;
+    width: 400px;
+    height: 60px;
+    /* background-color: black; */
+  }
+  .btnsearch{
+    margin-right: 400px;
+    margin-left: -160px; /* TAKES THE SIGNUP BTN WITH IN THE INPUT AREA*/
+    /* position: absolute; */
+    /* left: 240px; */
+    /* top: 80; */
+    width: 150px;
+    margin-top: 08px;
+    border-radius: 50px;
+    height: 45px;
+    background-color: green;
+    
+  }
+  .bigboxbottom{
+    width: 100%;
+    display: flex;
+    
   }
   
- 
