@@ -79,8 +79,93 @@
     
   }
   .bigboxbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     display: flex;
+    padding: 20px; /* Add padding around the content */
+    /* border: 1px solid #ccc; Add a border for visual separation */
+    /* margin: 10px; Add margin around the element */
+    /* text-align: center;  */
+    
+    
+  }
+  .testboxfoot{
+    background-color: rgb(171, 93, 235);
+    width: 900px;
+    border: 15px rgb(5, 28, 155);
+    text-align: center;
+    /* padding: 25px; */
+    /* margin: 20px; */
+    /* justify-content: center;1 */
+    /* align-items: center; */
+    /* float: left; PLACES ALLL THE BOXES IN THE SAME ROW */
+    border-style: double;
+    border-bottom: black;
+
+  }
+  .testboxfoot p {
+    color: white 
+
+  }
+  .testboxfoot h4 {
+    color: white 
+    
+  }
+  .testboxfoot button {
+    color: white ;
+    background-color: green;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+
+    
     
   }
   
+ 
+  
+ .datefooter footer{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#040455;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  } 
+  .datefooter hr{
+    color: white;
+
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .footer p{
+    color: white;
+    margin: 0;
+  }
+  .entryP{
+    /* display: flex; */
+    /* align-items: center; */
+    color: #fff;
+  }
+  #icons{
+    width: 30px;
+    height: 30px;
+
+   
+    
+  }
+  .header1{
+    display: flex;
+    margin-right: 10px;
+
+    background-color:#040455;
+    padding: 20px;
+    
+
+  }
+
+

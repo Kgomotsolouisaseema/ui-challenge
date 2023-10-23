@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Header.css";
-import headergirls from "../assets/headerGirls.png";
+// import headergirls from "../assets/headerGirls.png";
 import backboy from "../assets/backboy.png";
 import frontGirl from "../assets/frontgirl.png";
 
